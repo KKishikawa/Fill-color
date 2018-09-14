@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+body,
+html,
+h1 {
+  padding: 0px;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f5f5dc;
+}
+
+input {
+  margin: 5px 0;
+}
+
+input.numberInp {
+  width: 50px;
+  border: solid 1px #8f8f8f;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.header {
+  background: linear-gradient(to top left, blue, red);
+  padding: 5px;
+}
+
+.contents {
+  padding: 10px;
+  min-height: calc(100vh - 130px);
+  margin: 0;
+
+}
+
+.footer {
+  background-color: yellowgreen;
+  height: 30px;
+}
+
+.btn-container {
+  padding: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  min-height: 25px;
+  min-width: 100px;
+  background-color: #ef5f5f;
+  box-shadow: 0 6px #a17676;
+  padding: 2px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffdfdf;
+  display: inline-block;
+}
+
+.btn:hover {
+  box-shadow: 0 5px #a17676;
+  top: 1px;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px;
+}
+
+.header .btn {
+  font-size: 8px;
+  display: inline;
+}
+
+.header .btn-container {
+  padding: 0 0 5px 0;
+}
+
+.dark-btn {
+  padding: 3px;
+  min-height: 20px;
+  min-width: 70px;
+  background-color: #6e6e6e;
+  box-shadow: 0 5px #414141;
+  color: whitesmoke;
+  font-size: 11px;
+}
+
+.dark-btn:hover {
+  box-shadow: 0 4px #414141;
+}
+
+.dark-btn:active {
+  box-shadow: none;
+}
+
+#submit2 {
+  color: #414141;
+  background-color: #98ef5f;
+  box-shadow: 0 6px #7da176;
+}
+
+#submit2:hover {
+  box-shadow: 0 5px #7da176;
+}
+
+#submit2:active {
+  box-shadow: none;
+}
+
+#result {
+  padding: 10px 0;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  line-height: 1.5;
+}
+
+table th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+table td {
+  padding: 10px;
+  vertical-align: center;
+  text-align: middle;
+  color: #3f3f3f;
+  font-size: 18px;
+}
+
+.mid-table td {
+  padding: 7px;
+  font-size: 16px;
+}
+
+.large-table td {
+  padding: 5px;
+  font-size: 13px;
+}
+
+.resultTB td {
+  text-align: left;
+  border: 1px solid #964747;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.resultTB td:first-child {
+  text-align: center;
+  background-color: #ce98e7;
+}
+
+.resultTB tr:nth-child(even) {
+  background: #f2d6ff;
+}

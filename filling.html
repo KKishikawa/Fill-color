@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>ランダム塗りつぶし</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <script src="javascripts/color.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1>ランダム塗りつぶし</h1>
+  </div>
+  <p>プログラムに関して</p>
+  <ul>
+    <li>テーブル設定適応を実行したタイミングで、縦・横・色の分割の値が適応されます。</li>
+    <li>リピートを実行した場合、すべてのセルを一回以上塗りつぶすとリピートは終了します。</li>
+  </ul>
+  <div class="contents">
+    縦：<input id="rowsNum" type="number" name="input1" class="numberInp" value="3" min="0" max="100">
+    横：<input id="columnsNum" type="number" name="input2" class="numberInp" value="3" min="0" max="30">
+    色の分割：<input id="splitColor" type="number" name="input3" class="numberInp" value="10" min="1">
+    同時ピック数：<input id="sameTime" type="number" name="input4" class="numberInp" value="1" min="1">
+    <div class="btn-container">
+      <div class="btn" id="submit1">テーブル設定適応</div>
+      <div class="btn dark-btn" id="reset">塗りつぶしリセット</div>
+      <div class="btn" id="submit2">1回ランダム</div>
+      <div class="btn" id="submit3">リピート</div>
+    </div>
+    <div id="result">
+
+    </div>
+    <div id="Gets-counts"></div>
+    <input type="hidden" name="x" id="x">
+    <input type="hidden" name="y" id="y">
+  </div>
+  <div class="footer">
+
+  </div>
+  <script src="javascripts/fill.js"></script>
+</body>
+
+</html>
