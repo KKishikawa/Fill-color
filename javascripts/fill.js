@@ -2,7 +2,6 @@ let submit1 = document.getElementById('submit1');
 let submit2 = document.getElementById('submit2');
 let submit3 = document.getElementById('submit3');
 let reset = document.getElementById('reset');
-let input = document.getElementsByClassName('numberInp');
 let rowsNum = document.getElementById('rowsNum');
 let columnsNum = document.getElementById('columnsNum');
 let splitColor = document.getElementById('splitColor');
